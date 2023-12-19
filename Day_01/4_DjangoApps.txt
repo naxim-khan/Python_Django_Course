@@ -1,0 +1,5 @@
+We got our Django project here, they (mypage) project.
+
+    > Inside this there is another subfolder mypage.
+    > which contains some python files.
+    > Django projects embrace a modular Structure.

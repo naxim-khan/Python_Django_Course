@@ -1,0 +1,54 @@
+================================================================
+
+Course Pre-requisites (what do you need to know to get the most
+out of this course?):
+
+1 . Basic Python knowledge is required.
+2 . No prior Django Knowledge is required.
+3 . Basic Web Dev knowledge is required.
+
+================================================================
+
+About This Course
+
+Three Main Filures of this course.
+
+1). Foundation 2). Beyond The Basics 3) Preparing for Reality :
+
+                -> Setup & Understanding Django Projects.
+                -> Setting URLs, Routes & Views.
+                -> Templates & Static Files.
+                -> Data, Models & Relationships.
+                -> Working with forms & inputs.
+                -> Class-based Views.
+                -> File Uploads.
+                -> Sessions (Admin site Authentication).
+                -> Many Small Examples
+                -> A Real Project (Building a Blog).
+                -> Frontend + Admin Area.
+                -> In-Depth Deployement Guide.
+            
+================================================================
+
+Your Course Success:
+
+Solve different challenges, and practice more.
+
+================================================================
+
+Choose Your course Path!
+
+Taking this Cours: Two options.
+
+1. Standard Approach (Recommended)
+    > Start with lecture 1 in section 1 and 
+    go through the course step by step.
+
+    > Use Django smamary module at the end to summarize what
+    you learned or to refresh knowledge in the future.
+
+2. Summary Approach (if you're in a hurry) :
+    > Skip forward to the Django summary module.
+    > Go through the entire course after going through
+    the summary.
+

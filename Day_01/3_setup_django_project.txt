@@ -1,0 +1,10 @@
+Setup & Creating Django projects .
+
+Module Content
+    > Installing Django.
+    > Creating Django Project.
+    > Analyzing the default Django Project Structure.
+
+
+================================================================
+

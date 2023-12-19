@@ -1,0 +1,79 @@
+What is Django ?
+
+Ans : Django is a Python web development framework.
+      -> It allows us to build webpages using python.
+      -> For the front-end we'll use Html Css.
+      -> For the backend we'll use Python Django Library.
+
+================================================================
+
+What is Frame Work?
+
+Ans: 
+    Frame Work:
+                A framework is a third-party libraray which you install on your system
+                    -> it has a bunch of utility functionality and different's methods 
+                    you can use which solves a lot problem's for you. So that you don't 
+                    have to solve them like:
+                    Managing Session's, Authentication and file Uploads, Parsing incoming 
+                    request and sending back responses e-t-c.
+
+                    -> You don't need to do these complex steps but you can focuse on  doing
+                    handling requests and working with database and managing sessions etc. 
+                    You wanna decide which data to store and when data would be stored. But 
+                    you don't wanna implement it technically. that's why we use a framework.
+
+                    -> And the reason the framework is different from a library because it's 
+                    not only give us these tools to use it, it also give us a clear guidence 
+                    a clear set of rules on how to use these tools.
+
+================================================================
+
+Why we need to use FrameWork like Django ?
+
+Ans: 
+    We use it because it's takes a lot of work away from us and allows us 
+    to focuse on our core business logic and therefor it is the most popular 
+    web development framework for python.
+
+    -> Django is built for the latest version (3.x) of Python.
+    .---------------------.
+    | Built for Pthon 3.x |
+    `---------------------`
+             |
+             |
+    .----------------------.
+    | Built for the latest |
+    | version of Python    |
+    `----------------------`
+
+    -> Following Batteries included.
+
+    .----------------------.
+    | "Batteries included" |
+    `----------------------`
+             |
+             |
+    .----------------------------.
+    | Offers built-in solutions  |
+    | and features for basically |
+    | all problems.              |
+    `----------------------------`
+
+    -> Basically means it's everything for everyproblem You 
+    don't need to install a ton libraries or packages.
+
+    -> Django is not a small FrameWork for side project.
+
+    .---------------------------.
+    | "Bauild Production ready  |
+    |  Websites"                |  
+    `---------------------------`
+                   |
+                   |
+    .----------------------------.
+    | Django can be used and is  |
+    | for building real Websites |
+    `----------------------------`
+
+================================================================

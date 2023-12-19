@@ -1,0 +1,52 @@
+Inside mypage folder we got a bunch of files 
+but exactly what is it for?.
+______________________________________________________________________
+manage.py 
+(It's a file where we wouldn't change anything we shouldn't touch this file
+don't change logic of this file.
+
+we'll later use this manage.py file and also know more about it later)
+Because this file will give access to some builtin django commands.
+which we can use in different django project.
+
+______________________________________________________________________
+sub folder (manage.py) inside view:
+
+__init__.py :
+
+    > it's empty and we don't need to make any change here. 
+
+    > it's only meant to the folder where our mange.py and 
+    all these folders or files are save.
+
+    > It's store these files and folders as a python Module or 
+    Package.
+
+asgi.py & wsgi.py :
+
+        > We actually don't need to touch these files also for the moment.
+        > They'll become important later. Once we wanna deploy our project 
+        into a real server.
+        > To expose to our project to the word.
+        > They'll help us to serving our files at end.
+
+setting.py :
+        > We're actually allowed here to make changes .
+        > The setting.py file actually contains on global settings for our project
+        > we'll fully understand setting.py from time to time.
+        > At the begaining we don't need to make many changes to setting.py file.
+
+urls.py : 
+        > That as an important file when we start to add more and more
+        files to our web application. here we have to register all those
+        pages .
+
+        > To make sure that they can be loaded for different urls.
+        > we'll be going to a detail look in time to time.
+
+
+And we'll also be adding our own custom files.
+
+Above is the rough overview of why all these files matter.
+______________________________________________________________________
+
