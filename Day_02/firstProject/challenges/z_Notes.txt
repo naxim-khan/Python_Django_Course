@@ -1,0 +1,72 @@
+What are "URLs" ?
+
+URL : (Uniform Resource Locator)
+    It's a unique identifier that points to
+    a resource on the internet.
+    It's also known as a web address.
+__________________________________________________________________________________________
+eg: 
+    https://www.facebook.com/
+
+    > https: 
+        (Hypertext Transfer Protocol Secure)
+
+    > www "World Wide Web.": 
+        This is a subdomain.
+
+    > facebook :
+        This is the domain name. 
+
+    > ".com": 
+        This is the top-level domain (TLD).
+        it indicates that Facebook is a commercial website.
+
+https://facebook.com/profile/nazeem
+
+In this case it's means that your now accessing the nazeem 
+profile page it's when you locating through folder's using cmd.
+a path to nazeem facebook profile.
+
+==============================================================================
+
+What are views? 
+
+    .------------------------------------------------.
+    | The logic that is executed for different Urls  |
+    `------------------------------------------------`
+            |                            |
+            |                            |
+    .------------------.        .------------------.   
+    |     FUNCTION     |        |     CLASS        |
+    `------------------`        `------------------`
+            |____________________________|
+                         |
+    .------------------------------------------------.
+    | Code that handle (evaluates) requests and      |
+    |             return reponses                    |
+    `------------------------------------------------`
+                         |
+       |`````````````````|```````````````````````````|                  
+.-------------.  .---------------. .------------------------. 
+| Loading &   |  | run any other | | Prepare and return     |
+| prepare data|  | logics        | | respons data (eg. HTML)| 
+`-------------`  `---------------` `------------------------`
+
+
+it's simple form is just a python function full of code
+which is executed automatically by django when a request
+for a certain URL reaches the django server it could also
+be a class you have both option here.
+
+================================================================
+
+.----------.__➡__.---------.__➡_>.-------------------.
+|          |      | REQUEST |      |      SERVER       |
+|   User   |      `---------`      | (REMOTE MACHINE)  |
+|          |__⬅__.----------.____<|                   |
+`----------`      | RESPONSE |     |___________________|
+                  `----------`               ⬆⬇
+                                   .--------------------.
+                                   |      DATABASE      |
+                                   `--------------------`
+                                   

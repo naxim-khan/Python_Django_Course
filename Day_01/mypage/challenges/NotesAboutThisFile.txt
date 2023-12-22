@@ -1,0 +1,35 @@
+1. Migration Folder:
+
+    > ignore it for now it'sll become important latter.
+
+there are some new files inside our app which are below 
+
+1. admin.py :
+            > We'll use it for adminstation area latter.
+            > for the moment it doesnot matter.
+
+2. apps.py : 
+            > contains :
+                from django.apps import AppConfig
+
+                class ChallengesConfig(AppConfig):
+                    default_auto_field = 'django.db.models.BigAutoField'
+                    name = 'challenges'
+
+                    > name = 'challenges' <-- we could change this name but 
+                    it's actually matching the name of our app so we would leave as it is.
+                    and this name will be needed later to identify this app.
+
+3. models.py :
+              > it'll become important once we start working the database 
+              and we add data model's to our project.
+
+4. test.py : 
+            > it'll help us with automated testing and unit testing.
+
+
+5. views.py : 
+            > this file actually matter's 
+            > we'll actually write some logics here.
+
+

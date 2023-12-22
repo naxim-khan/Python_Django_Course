@@ -3,3 +3,14 @@ We got our Django project here, they (mypage) project.
     > Inside this there is another subfolder mypage.
     > which contains some python files.
     > Django projects embrace a modular Structure.
+    > Django project contains multiple modules that make up the project.
+    > IN Django word they we didn't call them modules we call them apps.
+    > And you store your actual application code in those apps.
+    > To add different features to your entire project.You add multiple apps that hold those features.
+
+Let's create our new app. Inside our Django project.
+
+For this we are again going to use manage.py file.
+> And there the startapp sub-command
+> And then any name of our choice.
+> (py manage.py startproject start app challenges)
