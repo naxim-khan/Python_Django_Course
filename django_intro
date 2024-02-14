@@ -1,0 +1,55 @@
+Speaker Notes
+In this lecture, we will introduce you to Django, a popular Python web framework. We will discuss what Django is, 
+why you would use it, and its key characteristics. By the end of this lecture, you will have a basic understanding 
+of Django and be able to decide if it is the right framework for your next web development project.
+
+Slide 2
+What is Django?
+
+Image of 
+
+Django is a high-level Python web framework.
+It is free and open-source.
+It is used to build complex, data-driven websites and web applications.
+Some popular websites built with Django include Spotify, Instagram, and Pinterest.
+Speaker Notes
+Django is a powerful and versatile framework that can be used to build a wide variety of web applications. It is known for its clean and pragmatic 
+design, rapid development capabilities, and robust security features.
+
+Slide 3
+Why use Django?
+
+Rapid development: Django provides many built-in features that can save you time and effort when developing your web application.
+Security: Django takes security seriously and helps you avoid common security mistakes.
+Scalability: Django can be used to build websites of all sizes, from small blogs to large enterprise applications.
+Large and active community: Django has a large and active community of developers who can help you with any problems you encounter.
+Speaker Notes
+There are many reasons to use Django for your next web development project. It is a powerful and versatile framework that can help you 
+build secure, scalable, and maintainable web applications. Additionally, the large and active community of Django developers can provide you with support and resources.
+
+Slide 4
+Key characteristics of Django
+
+Image of 
+
+Object-Relational Mapper (ORM): Django's ORM allows you to interact with your database in a Pythonic way.
+Views: Views are Python functions that handle incoming requests and generate responses.
+Models: Models define the structure of your data.
+Templates: Templates define the layout of your web pages.
+Admin Interface: Django comes with a built-in admin interface that allows you to easily manage your data.
+Speaker Notes
+Django has several key characteristics that make it a popular choice for web development. The ORM makes it easy to interact with your database, views handle incoming requests, models define your data structure, templates define the layout of your web pages, and the admin interface allows you to easily manage your data.
+
+Slide 5
+Conclusion
+
+Image of 
+
+Django is a powerful and versatile Python web framework.
+It is a great choice for building complex, data-driven websites and web applications.
+If you are looking for a framework that can help you develop secure, scalable, and maintainable web applications, then Django is a great option.
+Speaker Notes
+In this lecture, we have introduced you to Django. We have discussed what Django is, why you would use it, and its key characteristics. I encourage you 
+to learn more about Django and see if it is the right framework for your next web development project.
+
+I hope this lecture has been helpful. Please let me know if you have any questions.
