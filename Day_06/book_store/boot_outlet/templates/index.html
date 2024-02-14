@@ -1,0 +1,47 @@
+{% extends "boot_outlet/base.html" %}
+
+{% block title %}
+    All Books
+{% endblock title %}
+
+{% block content %}
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-md-3"> <!-- Use Bootstrap's grid system to create columns -->
+        {% for book in books %}
+        <div class="col mb-4" >
+            <div class="card h-100  text-center">
+                <div class="card-body ">
+                    <span class="card-number fw-bold">{{ book.rating }}</span>
+                    <h5 class="card-title mb-4 book-title">{{ book.title }}</h5>
+                    <div class="hr-line bg-primary-subtle " style="--bs-text-opacity: .5;"></div>
+                    <p class="card-text">
+                        <div class="cardtext_inner">
+                            Ratings: {{ book.rating }} <br>
+                            {{ book.title }} by {{ book.author.full_name }} 
+                            The book has a rating of {{ book.rating }} 
+                            {% if book.is_bestselling %}
+                                And is a bestseller 
+                            {% else %}
+                                Not a bestseller
+                            {% endif %}
+                            Click the below button for more details
+                            about this book... <br>
+                            "Rock bottom became the solid foundation on which I rebuilt my life."
+                        </div>
+                    </p>
+                    <a href="{{ book.get_absolute_url }}" class="btn btn-outline-light">BOOK DETAIL</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+<div class=" footer ">
+    <h3 >Total Number of Books = {{ total_books }}</h3>
+    <p>Average Rating: {{ avg_rating.rating__avg|default:"N/A"|floatformat:2 }}</p>
+</div>
+
+{% endblock content %}
